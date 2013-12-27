@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VTAddObjectDelegate.h"
 
-@interface VTDetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface VTDetailViewController : UITableViewController <UISplitViewControllerDelegate, NSFetchedResultsControllerDelegate, VTAddObjectDelegate>
 
 @property (strong, nonatomic) id detailItem;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

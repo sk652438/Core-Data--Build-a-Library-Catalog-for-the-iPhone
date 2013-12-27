@@ -11,8 +11,9 @@
 @class VTDetailViewController;
 
 #import <CoreData/CoreData.h>
+#import "VTAddObjectDelegate.h"
 
-@interface VTMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface VTMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate, VTAddObjectDelegate>
 
 @property (strong, nonatomic) VTDetailViewController *detailViewController;
 
