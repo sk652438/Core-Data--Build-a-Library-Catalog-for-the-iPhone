@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D58DBC79186F076700E5AB55 /* Author+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = D58DBC78186F076700E5AB55 /* Author+Create.m */; };
+		D58DBC7C186F165B00E5AB55 /* Book+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = D58DBC7B186F165B00E5AB55 /* Book+Create.m */; };
 		D5A3AC79186DB259006847FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A3AC78186DB259006847FC /* Foundation.framework */; };
 		D5A3AC7B186DB259006847FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A3AC7A186DB259006847FC /* CoreGraphics.framework */; };
 		D5A3AC7D186DB259006847FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A3AC7C186DB259006847FC /* UIKit.framework */; };
@@ -28,8 +30,6 @@
 		D5A3ACB0186DB259006847FC /* TestCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A3ACAF186DB259006847FC /* TestCoreDataTests.m */; };
 		D5A3ACC4186DB3AD006847FC /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A3ACC3186DB3AD006847FC /* Author.m */; };
 		D5A3ACC7186DB3AE006847FC /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A3ACC6186DB3AE006847FC /* Book.m */; };
-		D5A3ACCA186DB407006847FC /* Author+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A3ACC9186DB407006847FC /* Author+Create.m */; };
-		D5A3ACCD186DB6C6006847FC /* Book+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A3ACCC186DB6C6006847FC /* Book+Create.m */; };
 		D5A3ACD6186E15D1006847FC /* VTAuthorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A3ACD3186E15D1006847FC /* VTAuthorViewController.m */; };
 		D5A3ACD7186E15D1006847FC /* VTBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A3ACD5186E15D1006847FC /* VTBookViewController.m */; };
 /* End PBXBuildFile section */
@@ -45,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D58DBC77186F076700E5AB55 /* Author+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Author+Create.h"; sourceTree = "<group>"; };
+		D58DBC78186F076700E5AB55 /* Author+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Author+Create.m"; sourceTree = "<group>"; };
+		D58DBC7A186F165B00E5AB55 /* Book+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+Create.h"; sourceTree = "<group>"; };
+		D58DBC7B186F165B00E5AB55 /* Book+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+Create.m"; sourceTree = "<group>"; };
 		D5A3AC75186DB259006847FC /* TestCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A3AC78186DB259006847FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D5A3AC7A186DB259006847FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,10 +77,6 @@
 		D5A3ACC3186DB3AD006847FC /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
 		D5A3ACC5186DB3AE006847FC /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		D5A3ACC6186DB3AE006847FC /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
-		D5A3ACC8186DB407006847FC /* Author+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Author+Create.h"; sourceTree = "<group>"; };
-		D5A3ACC9186DB407006847FC /* Author+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Author+Create.m"; sourceTree = "<group>"; };
-		D5A3ACCB186DB6C6006847FC /* Book+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+Create.h"; sourceTree = "<group>"; };
-		D5A3ACCC186DB6C6006847FC /* Book+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+Create.m"; sourceTree = "<group>"; };
 		D5A3ACD1186E1220006847FC /* VTAddObjectDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTAddObjectDelegate.h; sourceTree = "<group>"; };
 		D5A3ACD2186E15D1006847FC /* VTAuthorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTAuthorViewController.h; sourceTree = "<group>"; };
 		D5A3ACD3186E15D1006847FC /* VTAuthorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTAuthorViewController.m; sourceTree = "<group>"; };
@@ -212,15 +212,15 @@
 		D5A3ACBB186DB277006847FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D58DBC7A186F165B00E5AB55 /* Book+Create.h */,
+				D58DBC7B186F165B00E5AB55 /* Book+Create.m */,
 				D5A3AC92186DB259006847FC /* TestCoreData.xcdatamodeld */,
 				D5A3ACC2186DB3AD006847FC /* Author.h */,
 				D5A3ACC3186DB3AD006847FC /* Author.m */,
 				D5A3ACC5186DB3AE006847FC /* Book.h */,
 				D5A3ACC6186DB3AE006847FC /* Book.m */,
-				D5A3ACC8186DB407006847FC /* Author+Create.h */,
-				D5A3ACC9186DB407006847FC /* Author+Create.m */,
-				D5A3ACCB186DB6C6006847FC /* Book+Create.h */,
-				D5A3ACCC186DB6C6006847FC /* Book+Create.m */,
+				D58DBC77186F076700E5AB55 /* Author+Create.h */,
+				D58DBC78186F076700E5AB55 /* Author+Create.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -329,11 +329,11 @@
 				D5A3AC8B186DB259006847FC /* VTAppDelegate.m in Sources */,
 				D5A3ACC4186DB3AD006847FC /* Author.m in Sources */,
 				D5A3AC94186DB259006847FC /* TestCoreData.xcdatamodeld in Sources */,
-				D5A3ACCD186DB6C6006847FC /* Book+Create.m in Sources */,
-				D5A3ACCA186DB407006847FC /* Author+Create.m in Sources */,
 				D5A3AC9A186DB259006847FC /* VTDetailViewController.m in Sources */,
 				D5A3ACC7186DB3AE006847FC /* Book.m in Sources */,
 				D5A3AC87186DB259006847FC /* main.m in Sources */,
+				D58DBC7C186F165B00E5AB55 /* Book+Create.m in Sources */,
+				D58DBC79186F076700E5AB55 /* Author+Create.m in Sources */,
 				D5A3ACD6186E15D1006847FC /* VTAuthorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,6 +555,7 @@
 				D5A3ACB5186DB259006847FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5A3ACB6186DB259006847FC /* Build configuration list for PBXNativeTarget "TestCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +564,7 @@
 				D5A3ACB8186DB259006847FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

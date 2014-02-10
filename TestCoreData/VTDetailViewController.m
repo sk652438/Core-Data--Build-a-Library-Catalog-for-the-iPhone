@@ -128,7 +128,6 @@
 - (NSFetchedResultsController *)fetchedResultsController
 {
     if (_fetchedResultsController != nil) {
-        NSLog(@"%d results for %@", [[_fetchedResultsController fetchedObjects] count], _author.name);
         return _fetchedResultsController;
     }
     
@@ -234,7 +233,7 @@
 {
     Book *book = [self.fetchedResultsController objectAtIndexPath:indexPath];
     cell.textLabel.text = book.title;
-    cell.detailTextLabel.text =[NSString stringWithFormat:@"published in %d", [book.year integerValue]];
+    cell.detailTextLabel.text =[NSString stringWithFormat:@"published in %ld", (long)[book.year integerValue]];
 }
 
 #pragma mark - Split view

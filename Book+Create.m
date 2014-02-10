@@ -1,15 +1,16 @@
 //
 //  Book+Create.m
-//  TestCoreData
+//  TestOS7a
 //
-//  Created by Developer on 12/27/13.
+//  Created by Developer on 12/24/13.
 //  Copyright (c) 2013 VT. All rights reserved.
 //
 
 #import "Book+Create.h"
-#import "Author+Create.m"
+#import "Author+Create.h"
 
 @implementation Book (Create)
+
 
 + (Book*)bookWithDictionary:(NSDictionary*)defs inManagedObjectContext:(NSManagedObjectContext*)context {
     Book* book=nil;
@@ -31,6 +32,9 @@
         book.whoWrote = [Author authorWithName:[defs valueForKey:@"authorName"] inManagedObjectContext:context];
         if (![context save:&error]) {
             // Replace this implementation with code to handle the error appropriately.
+            // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+            abort();
         }
     }else { //  one object only : the ONE
         book = [books lastObject];
@@ -38,5 +42,7 @@
     NSLog(@"%@ by %@", book.title, book.whoWrote.name);
     return book;
 }
+
+
 
 @end
